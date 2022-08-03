@@ -12,19 +12,19 @@
     font-family: Fantasy;
     font-size: 80px;
 position: absolute;
-    top: 40%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%,-50%);
-    color: skyblue;
+    color: rgb(3, 3, 3);
 }
 .container #imgtxt2{
     font-family: cursive;
     font-size: 50px;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%,-50%);
-    color: yellowgreen;
+    color: rgb(233, 233, 223);
  
     
 }
@@ -35,7 +35,7 @@ position: absolute;
     border-color: white;
     text-align: center;
     opacity: .9;
-    background-color: aquamarine;
+    background-color: rgb(245, 127, 49);
     padding: 20px;
     font-size: 50px;
     position: absolute;
@@ -57,9 +57,10 @@ position: absolute;
 .div1
 {
     font-family: cursive;
-    background-color: aquamarine;
+    background-color: rgb(244, 248, 247);
     margin-top: 10px;
     padding: 20px;
+    color: black;
     
 
 }
@@ -67,7 +68,7 @@ position: absolute;
 .div2
 {
     font-family: 'Courier New', Courier, monospace;
-    background-color:bisque;
+    background-color:rgb(248, 246, 242);
     float: left;
     width: 32%;
     padding: 10px;
@@ -76,7 +77,7 @@ position: absolute;
 .div3
 {
     font-family: cursive;
-    background-color: aquamarine;
+    background-color: rgb(248, 250, 249);
     float: left;
     width:  32%;
     padding: 10px;
@@ -85,7 +86,7 @@ position: absolute;
 .div4
 {
     font-family: 'Courier New', Courier, monospace;
-    background-color: bisque;
+    background-color: rgb(240, 236, 231);
     float: left;
     width:  32%;
     padding: 10px;
