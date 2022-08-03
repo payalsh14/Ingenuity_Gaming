@@ -3,9 +3,12 @@
     
     text-align: center;
     font-size: 60px;
-    background-color: yellowgreen;
-    font-style: italic;
-    margin: 20px;
+    background-color: rgb(15, 14, 14);
+    margin: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 76px;
+    color: white;
 }
 #image
 {
@@ -16,7 +19,10 @@
     /* background-color: yellowgreen; */
     font-style: italic;
 }
-
+p.para
+{
+    font-size: 30px;
+}
 #list
 {
     text-align: center;
@@ -29,6 +35,9 @@ ul{
     text-align: center;
     list-style-position: inside;
     margin: 20px;
+    font-size: 20px;
+    background-color: rgb(240, 235, 228);
+    
     
     /* padding-left: 50%; */
 }
@@ -42,7 +51,9 @@ ul{
 ul
 {
     text-align: left;
+    font-size: 40px;
 }
 h4{
     text-align: center;
+    font-size: 50px;
 }
