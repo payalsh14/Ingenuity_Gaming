@@ -10,7 +10,7 @@
 }
 .container #imgtxt{
     font-family: Fantasy;
-    font-size: 80px;
+    font-size: 50px;
 position: absolute;
     top: 15%;
     left: 50%;
@@ -35,9 +35,9 @@ position: absolute;
     border-color: white;
     text-align: center;
     opacity: .9;
-    background-color: rgb(245, 127, 49);
+    background-color: transparent;
     padding: 20px;
-    font-size: 50px;
+    font-size: 40px;
     position: absolute;
     top: 62%;
     left: 50%;
