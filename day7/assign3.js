@@ -13,6 +13,7 @@ const person =
     }
 
     };
+    document.body.style.backgroundColor="black";
 person.firstName=prompt("Enter Name :");
 person.Age=prompt("Enter Age");
 person.Address=prompt("Enter Address :");
