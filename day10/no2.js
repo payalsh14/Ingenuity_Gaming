@@ -7,5 +7,5 @@ for(let i=0;i<numbers.length;i++){
 }
 for (var i in cuberoot) 
 {
-   console.log(cuberoot[i]);
+   document.write(cuberoot[i]);
 }
