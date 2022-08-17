@@ -22,4 +22,4 @@ var fun = {
     lastName: "Kumari"
   }
   
-  console.log(call1.fullName.call(call2, "Jaipur", "Sikar"));
+  document.write(call1.fullName.call(call2, "Jaipur", "Sikar"));
