@@ -31,7 +31,7 @@ function start(){
     document.getElementById("mole").style.visibility = "hidden";
     document.getElementById("mud").style.visibility = "hidden";
     document.getElementById("pointtext").style.visibility = "visible";
-document.getElementById("currentPoint").style.visibility = "visible";
+    document.getElementById("currentPoint").style.visibility = "visible";
    
 
     setInterval(rat, 1000)
