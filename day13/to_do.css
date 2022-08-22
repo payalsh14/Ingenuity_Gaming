@@ -6,7 +6,7 @@
     box-sizing: border-box;
   }
   body {
-    background: linear-gradient(120deg, skyblue, blue);
+    background-image: url("https://img.freepik.com/premium-photo/chalkboard-blackboard-concept-with-empty-list-with-coffee-mobile-phone_494619-838.jpg?w=740");
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
