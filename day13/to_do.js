@@ -2,9 +2,15 @@ var inp=document.querySelector('.todo-input');
 var btn=document.querySelector('button');
 var list=document.querySelector('.todo-list');
 var out=window.localStorage.getItem("data");
-var d=out.split(',');
-console.log(d.length);
+var d=[];
 var i=0;
+if(out==""||out==null)
+{
+    alert("No Work To Be Done");
+}
+else
+{
+d=out.split(',');
 while(i<d.length){
     var newdiv=document.createElement("div");
     newdiv.classList.add('tododiv');
@@ -23,12 +29,12 @@ while(i<d.length){
     list.appendChild(newdiv);
     i++;
 };
-var entry=[];
+}
 btn.onclick = function crtodo(e){
     e.preventDefault();
     if(inp.value.length>0){
-    entry.push(inp.value);
-    window.localStorage.setItem("data",entry);
+    d.push(inp.value);
+    window.localStorage.setItem("data",d);
     var newdiv=document.createElement("div");
     newdiv.classList.add('tododiv');
 
@@ -54,9 +60,9 @@ list.onclick =function checkbtn(e){
         if(check.classList[0]=="tododiv_end")
         {
             var parentnode=check.parentElement;
-            var data=entry.indexOf(parentnode.innerText);
-            entry.splice(data,1);
-            window.localStorage.setItem("data",entry);
+            var data=d.indexOf(parentnode.innerText);
+            d.splice(data,1);
+            window.localStorage.setItem("data",d);
             parentnode.remove();
         }
         if(check.classList[0]=="tododiv_check")
@@ -65,8 +71,3 @@ list.onclick =function checkbtn(e){
             parentnode.classList.add("done");
         }
 }
-
-
-
-
-
