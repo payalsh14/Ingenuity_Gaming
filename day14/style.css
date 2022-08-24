@@ -1,0 +1,138 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.load{
+  height: 100%;
+  width: 100%;
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+}
+
+.loader{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+ 
+  background: linear-gradient(180deg, rgba(2,0,36,1) 50%, rgba(233,255,0,1) 50%);
+  animation: loader 2s linear infinite ;
+}
+.shadow{
+  height: 10px;
+  width: 50px;
+  border-radius: 50%;
+ 
+  background: rgba(0, 0, 0, 0.395);
+  animation: shadow 2s  linear infinite ;
+
+}
+@keyframes shadow {
+  0% {
+      transform: scale(.1);
+  }
+  50%{
+      transform: scale(1);
+  }
+  100% {
+      transform: scale(.1);
+  }
+}
+
+
+@keyframes loader {
+  0% {
+      transform: translateY(0) rotate(0deg);
+  }
+  50%{
+      transform: translateY(-100px) rotate(180deg);
+  }
+  100% {
+      transform: translateY(0) rotate(360deg);
+  }
+}
+p{
+  font-size: 24px;
+}
+
+.load-text{
+  padding-top: 20px;
+  
+
+}
+
+#span1{
+  color: yellow;
+  font-size: 60px;
+  animation: span1 2s linear  infinite;
+}
+
+
+
+@keyframes span1 {
+  0%{
+
+      opacity: 1;
+  }
+  50%{
+    
+      opacity: 0;
+  }
+  100%{
+     
+      opacity: 1;
+  }
+}
+
+#span2{
+  color: red;
+  font-size: 60px;
+  animation: span2 2s linear  infinite;
+}
+
+
+
+@keyframes span2 {
+  0%{
+
+      opacity: 1;
+  }
+  50%{
+  
+      opacity: 0;
+  }
+  100%{
+
+      opacity: 1;
+  }
+}
+
+#span3{
+  color: green;
+  font-size: 60px;
+  animation: span3 2s linear  infinite;
+}
+
+
+
+@keyframes span3 {
+  0%{
+      
+      opacity: 1;
+  }
+  50%{
+
+      opacity: 0;
+  }
+  100%{
+
+      opacity: 1;
+  }
+}
+
+.img{
+display: none;
+}

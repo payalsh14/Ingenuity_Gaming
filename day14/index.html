@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="load">
+        <div class="loader"></div>
+        <div class="shadow"></div>
+        <div class="load-text"><p>Loading <span id="span1">.</span><span id="span2">.</span><span id="span3">.</span></p></div>
+
+    </div>
+    <div class="img">
+        <img src="https://img.freepik.com/free-psd/luxury-coffee-gold-logo-wall-mockup_4513-1242.jpg?size=626&ext=jpg&ga=GA1.2.1544884902.1660805548" alt="">
+    </div>
+    <script>
+       window.onload= function(){
+    setInterval(stopload,3000);
+}
+    function stopload(){
+        document.querySelector(".load").style.display="none";
+        document.querySelector(".img").style.display="block";
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>The form will open after 5 seconds</h1>
+    <script>
+        window.onload= function(){
+    setTimeout(stopload,4000);
+    }
+    function stopload(){
+        var url="assign1.html";
+        var windowsi="height = 700px width=800px";
+        var win=window.open(url,"Game",windowsi);
+        win.moveTo(200,200);
+    }
+    </script>
+</body>
+</html>
