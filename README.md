@@ -105,8 +105,7 @@ Day 20
 - enums
 - oops concepts.
 
-Day 20
-- 
+
 
 
 
