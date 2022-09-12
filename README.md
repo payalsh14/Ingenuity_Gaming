@@ -86,6 +86,27 @@ Day 17
 - Canvas game.
 - we had to make the object move through arrow keys.
 
+Day 18
+- Mario Game
+- learnt creating a game using third party library ps5.
+- the game consists keys with dynamic features.
+
+Day 19
+- we were introduced with Module, Webpack and Gulp.
+- deployed the Mario Game on netlify(alternative of github).
+
+**TYPESCRIPT
+
+Day 20
+- learnt about tsc and executing a typescript file.
+- data types
+- loops
+- functions
+- enums
+- oops concepts.
+
+
+
 
 
 
